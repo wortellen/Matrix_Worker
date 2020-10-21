@@ -4,8 +4,8 @@ public class Matrix {
 
     private double[][] matrix;
 
-    public Matrix() {
-        matrix = new double[1][1];
+    public Matrix(int column_length, int row_length) {
+        matrix = new double[column_length][row_length];
     }
 
     public double[][] getMatrix() {
